@@ -1,31 +1,24 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "ybw-birthday-phone",
+  "title": "杨博文的手机",
+  "description": "杨博文的手机，锁屏密码 61517。",
+  "revision": 1,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "杨博文",
+    "date": "2026-06-01",
+    "time": "19:07",
+    "battery": 88,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "passcode": "61517",
+    "wallpaper": "ybw",
+    "theme": "light"
   },
   "installedApps": [
     "appstore",
     {
       "id": "wechat",
       "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
       "installed": true,
       "visible": true,
       "dock": false,
@@ -89,610 +82,52 @@
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "little-pig",
+      "name": "litte pig",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "data:image/webp;base64,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",
+      "bio": ""
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
+      "id": "chat-little-pig-wechat",
       "app": "wechat",
-      "title": "测试会话",
+      "title": "litte pig",
       "participants": [
         "owner",
-        "test-contact"
+        "little-pig"
       ],
       "messages": [
         {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "msg-pig-1",
+          "body": "生日快乐呀",
+          "senderId": "little-pig",
+          "time": "2026-06-01 19:00"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "msg-pig-2",
+          "body": "little sheep",
+          "senderId": "little-pig",
+          "time": "2026-06-01 19:02"
+        },
+        {
+          "id": "msg-pig-3",
+          "body": "现在应该叫big sheep了你已经是一个大羊了",
+          "senderId": "little-pig",
+          "time": "2026-06-01 19:04"
+        },
+        {
+          "id": "msg-ybw-1",
+          "body": "谢谢你呀 little pig",
+          "senderId": "owner",
+          "avatar": "data:image/webp;base64,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",
+          "time": "2026-06-01 19:07"
         }
       ]
     }
   ],
-  "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "notes": [
-      {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calendar": [
-      {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
-      {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
-      }
-    ]
-  },
+  "content": {},
   "variables": {},
   "events": [],
   "tests": []
