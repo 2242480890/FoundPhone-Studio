@@ -58,6 +58,7 @@ export const storySchema = z
           phone: z.string().default(""),
           avatar: z.string().default(""),
           bio: z.string().default(""),
+          meta: z.record(z.string(), z.string()).default({}),
         }),
       )
       .default([]),
@@ -171,7 +172,7 @@ export function compileStory(raw: unknown): { story: Story; work: Work } {
           id: c.id + "-card",
           title: c.name,
           body: c.bio,
-          meta: { phone: c.phone },
+          meta: { phone: c.phone, ...c.meta },
           avatar: c.avatar,
         },
         `contacts.${n}`,
@@ -201,7 +202,10 @@ export function compileStory(raw: unknown): { story: Story; work: Work } {
           sender:
             senderId === "owner"
               ? s.phone.owner
-              : contacts.get(senderId || "")?.name || m.sender || s.phone.owner,
+              : contacts.get(senderId || "")?.meta?.nickname ||
+                contacts.get(senderId || "")?.name ||
+                m.sender ||
+                s.phone.owner,
           avatar: m.avatar || contacts.get(senderId || "")?.avatar || "",
           outgoing: senderId === "owner" || m.outgoing,
           meta: {
