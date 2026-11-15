@@ -133,7 +133,7 @@ export function validateLayout(raw: unknown, input: Work) {
 }
 export function useDeviceLayout(authored: Work, creator = false) {
   const base = useMemo(() => ensureAppStore(authored), [authored]);
-  const key = "foundphone-layout-v1:" + base.id;
+  const key = "foundphone-layout-v1:" + base.id + ":" + base.updatedAt;
   const [stored, setStored] = useState(() => {
       try {
         const text = localStorage.getItem(key);
@@ -166,7 +166,9 @@ export function useDeviceLayout(authored: Work, creator = false) {
     if (creator) return base;
     const known = new Map(base.apps.map((a) => [a.id, a]));
     const apps = [
-      ...layout.apps.filter((a) => known.has(a.id)),
+      ...layout.apps
+        .filter((a) => known.has(a.id))
+        .map((a) => ({ ...a, ...known.get(a.id)! })),
       ...base.apps.filter((a) => !layout.apps.some((b) => b.id === a.id)),
     ];
     return {
