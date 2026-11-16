@@ -309,6 +309,17 @@ export function WeChatSkin(p: SkinProps) {
                 <strong>{i.sender}</strong>
                 <p>{i.body}</p>
                 {i.media && <ItemMedia item={i} />}
+                {i.likers.length > 0 && (
+                  <div className="wx-moment-likes">
+                    <Heart size={13} fill="#f44368" color="#f44368" />
+                    {i.likers.join("、")}
+                  </div>
+                )}
+                {i.comments.map((c, ci) => (
+                  <p className="wx-moment-comment" key={ci}>
+                    {c}
+                  </p>
+                ))}
                 <small>{i.time}</small>
               </div>
             </button>
